@@ -6,7 +6,7 @@ else()
     set(MY_PROJECT_VERSION_PATCH 1)    
 endif()
 
-project(helloworld) VERSION 0.0.${MY_PROJECT_VERSION_PATCH})
+project(helloworld VERSION 0.0.${MY_PROJECT_VERSION_PATCH})
 
 find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
